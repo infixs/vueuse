@@ -267,7 +267,7 @@ export function useAxios<T = any, R = AxiosResponse<T>, D = any>(...args: any[])
         if (isAborted.value)
           return
         response.value = r
-        const result = r.data
+        const result = r?.data
         data.value = result
         onSuccess(result)
       })

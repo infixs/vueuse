@@ -24,6 +24,7 @@
   containsProp: function
   controlledComputed: function
   controlledRef: function
+  createDisposableDirective: function
   createEventHook: function
   createFetch: function
   createFilterWrapper: function
@@ -100,6 +101,7 @@
   refAutoReset: function
   refDebounced: function
   refDefault: function
+  refManualReset: function
   refThrottled: function
   refWithControl: function
   set: function
@@ -116,6 +118,7 @@
   toReactive: function
   toRef: function
   toRefs: function
+  transition: function
   TransitionPresets: object
   tryOnBeforeMount: function
   tryOnBeforeUnmount: function
@@ -154,6 +157,7 @@
   useConfirmDialog: function
   useCountdown: function
   useCounter: function
+  useCssSupports: function
   useCssVar: function
   useCurrentElement: function
   useCycleList: function
